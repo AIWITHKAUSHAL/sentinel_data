@@ -1,0 +1,16 @@
+{
+  "supplied_documents": [
+    "PV-RISK-CRD-2026-014 v1.0",
+    "ESPL-CON-SENTINEL-HLD-001",
+    "ESPL-CON-SENTINEL-LLD-001",
+    "ESPL-CON-SENTINEL-ARCH-001",
+    "ESPL-CON-SENTINEL-CAP-001"
+  ],
+  "official_reference_urls": {
+    "RBI": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=20339",
+    "NPCI": "https://www.npci.org.in/fraud-awareness"
+  },
+  "regulatory_document_status": "synthetic_topic_exercises_only",
+  "real_circulars_downloaded": false,
+  "official_text_included": false
+}

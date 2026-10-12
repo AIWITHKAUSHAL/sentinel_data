@@ -1,0 +1,17 @@
+{
+  "CRD_7.1": "tables/transactions + labels; parquet/transactions includes all 14 required fields",
+  "CRD_7.3_transaction_histories": "histories and training/sft, one example per main transaction",
+  "CRD_7.3_investigator_notes": "corpus/investigator_notes; tables/documents and legacy_cases",
+  "CRD_7.3_chargebacks": "corpus/chargeback_narratives, fraud and non-fraud disputes",
+  "CRD_7.3_playbooks": "documents/playbooks and corpus/playbooks",
+  "CRD_7.3_RBI_NPCI": "regulatory_exercises; synthetic topic exercises only, official corpus still required for real training",
+  "CRD_7.3_gold_DPO": "training/gold and training/dpo; synthetic candidates, human review still required",
+  "FE_01_to_FE_10": "features and feature_catalogue.json",
+  "DR_01": "No direct identifiers generated; limited pattern audit; human redaction audit remains separate",
+  "DR_02": "Fenced holdout file paths, separate upload bucket and filtered training views",
+  "DR_03": "Exact hash dedup for CPT, counts and estimates; semantic near-dedup remains separate",
+  "FR_FE_05": "fmt-v1 and fmt-v2; exact token enforcement when local tokenizer supplied",
+  "LLD_3_config_audit": "threshold_sets, hard_rules, list_entries, config_changes, decision_audit",
+  "MLOPS_08": "reviewer_feedback synthetic fixtures, linked to source transactions",
+  "not_data_fabrication_deliverables": "No training, model selection, GPU deployment, production metrics or cloud infrastructure provisioning"
+}
